@@ -1,4 +1,4 @@
-package backend;
+package backend.java;
 
 public class ControlPanel {
     private Apartment apartment; // Апартамент, свързан с панела за управление

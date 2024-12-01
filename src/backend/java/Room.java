@@ -1,4 +1,4 @@
-package backend;
+package backend.java;
 import java.util.ArrayList;
 
 public class Room {

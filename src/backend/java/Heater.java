@@ -1,4 +1,4 @@
-package backend;
+package backend.java;
 
 public class Heater extends Appliance {
     private int targetTemperature;

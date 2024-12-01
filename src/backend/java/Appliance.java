@@ -1,4 +1,4 @@
-package backend;
+package backend.java;
 
 public class Appliance {
     private String name; // Име на уреда

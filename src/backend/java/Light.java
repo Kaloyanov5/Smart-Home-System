@@ -1,13 +1,13 @@
-package backend;
+package backend.java;
 
-public class Fan extends Appliance {
-    public Fan(String name) {
+public class Light extends Appliance {
+    public Light(String name) {
         super(name);
     }
 
     public void performAction() {
         if (isOn()) {
-            System.out.println(getName() + " is spinning.");
+            System.out.println(getName() + " is on.");
         } else {
             System.out.println(getName() + " is off.");
         }
