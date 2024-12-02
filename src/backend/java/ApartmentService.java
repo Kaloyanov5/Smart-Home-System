@@ -6,7 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class ApartmentService {
-    private static final String API_URL = "http://localhost:5000/api/apartments";
+    private static final String API_URL = "http://localhost:5500/api/apartments";
 
     public static String getApartments() throws Exception {
         URL url = new URL(API_URL);
